@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2021, 8:27:22 PM
+    Author     : Anh Vu Nguyen {@literal <nganhvu>}
+*/
+
+.main-about-label {
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-font-family: "Times New Roman";
+    -fx-padding: 10;
+}
+
+.main-about-label6 {
+    -fx-text-fill: white;
+    -fx-font-size: 24;
+    -fx-font-family: "Times New Roman";
+    -fx-padding: 10;
+    -fx-font-weight: bold;
+}
+
+.main-about-label2 {
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-font-family: "Comic Sans MS";
+    -fx-padding: 15 1 1 30;
+    -fx-font-style: italic;
+    
+}
+
+.main-about-title {
+    -fx-fill: white;
+    -fx-stroke: white;
+    -fx-stroke-width: 1;
+    -fx-font-size: 30;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+}

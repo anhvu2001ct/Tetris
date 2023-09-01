@@ -1,0 +1,155 @@
+/* 
+    Author     : Anh Vu Nguyen {@literal <nganhvu>}
+*/
+
+.bg-color {
+    -fx-background-color: rgb(0, 0, 30);
+}
+
+.left-hold-text, .right-next-text {
+    -fx-font-family: "Cambria";
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.right-scoring-text {
+    -fx-font-family: "Algerian";
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+
+.main-grid > * {
+    -fx-stroke: rgba(200, 200, 200, 0.3);
+}
+
+.main-border-normal {
+    -fx-background-color: rgb(32, 178, 170);
+    -fx-effect: dropshadow(three-pass-box, #0066ff, 11, 0.35, 0, 0);
+}
+
+.main-border-paused {
+    -fx-background-color: rgb(205, 40, 40);
+    -fx-effect: dropshadow(three-pass-box, #BC205C, 11, 0.35, 0, 0);
+}
+
+.main-expbar-normal {
+    -fx-effect: dropshadow(three-pass-box, #0066ff, 11, 0.35, 0, 0);
+}
+
+.main-expbar-paused {
+    -fx-effect: dropshadow(three-pass-box, #BC205C, 11, 0.35, 0, 0);
+}
+
+.paused-pause-text {
+    -fx-font-family: "Bauhaus 93";
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.paused-item-text {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 21;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.paused-button {
+    -fx-font-family: "Cascadia Code";
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-min-width: 160;
+    -fx-min-height: 60;
+    -fx-border-width: 2;
+    -fx-text-fill: white;
+}
+
+.paused-button:hover {
+    -fx-cursor: hand;
+}
+
+.paused-button-primary {
+    -fx-background-color: rgba(0, 0, 255, 0.1);
+    -fx-border-color: rgb(0, 191, 255);
+}
+
+.paused-button-primary:hover {
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgb(0, 100, 255), 11, 0.5, 0, 0);
+}
+
+.paused-button-secondary {
+    -fx-background-color: rgba(255, 0, 0, 0.1);
+    -fx-border-color: rgb(255, 31, 31);
+}
+
+.paused-button-secondary:hover {
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgb(250, 0, 0), 11, 0.5, 0, 0);
+}
+
+.paused-volume-slider > .track {
+    -fx-background-color: transparent;
+}
+
+.paused-volume-full {
+    -fx-fill: rgba(30, 30, 30, 0.4);
+}
+
+.paused-checkbox {
+    -fx-background-color: transparent;
+}
+
+.paused-checkbox-text {
+    -fx-text-fill: #e6b800;
+}
+
+.paused-checkbox > .box {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: rgb(255, 31, 31);
+    -fx-effect: dropshadow(three-pass-box, rgb(250, 0, 0), 11, 0.5, 0, 0);
+    -fx-padding: 7;
+}
+
+.paused-checkbox:hover > .box {
+    -fx-border-color:  #cc0000;
+    -fx-cursor: hand;
+}
+
+.paused-checkbox:selected > .box {
+    -fx-border-color: rgb(0, 191, 255);
+    -fx-effect: dropshadow(three-pass-box, rgb(0, 100, 255), 11, 0.5, 0, 0);
+}
+
+.paused-checkbox:selected:hover > .box {
+    -fx-border-color: #4BED60;
+}
+
+.paused-checkbox .mark {
+    -fx-background-color: cyan;
+    -fx-padding: 7;
+    -fx-shape: " ";
+}
+
+.paused-checkbox:selected .mark {
+    -fx-shape: "M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z";
+}
+
+.main-go-pane {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-go-gameover {
+    -fx-font-size: 40;
+    -fx-fill: transparent;
+    -fx-stroke: white;
+    -fx-stroke-width: 2;
+}
+
+.main-go-wait {
+    -fx-font-size: 20;
+    -fx-fill: white;
+    -fx-stroke: cyan;
+}

@@ -1,0 +1,224 @@
+/* 
+    Author     : Anh Vu Nguyen {@literal <nganhvu>}
+*/
+
+.home-bg {
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.home-bg1 {
+    -fx-background-image: url(/img/bg.jfif);
+}
+
+.home-bg2 {
+    -fx-background-image: url(/img/bg2.jpg);
+}
+
+.main-left-project {
+    -fx-min-width: 250;
+    -fx-font-family: "Bauhaus 93";
+    -fx-font-size: 30;
+    -fx-background-color: rgba(255, 255, 255, 0.75);
+    -fx-text-fill: linear-gradient(to right, #000000DD, #0A381FDD, #31298CDD);
+    -fx-alignment: center;
+}
+
+.main-left-tetris {
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-font-size: 120;
+}
+
+.main-left-tetris > * {
+    -fx-stroke-width: 2;
+}
+
+.main-left-name {
+    -fx-background-color: linear-gradient(to top, rgba(255, 255, 255, 0.05), transparent);
+    -fx-border-width: 0 0 2 0;
+    -fx-pref-width: 130;
+    -fx-pref-height: 30;
+    -fx-text-fill: white;
+}
+
+.main-left-name-success {
+    -fx-border-color: green;
+}
+
+.main-left-name-fail {
+    -fx-border-color: red;
+}
+
+.main-left-name:hover {
+    -fx-background-color: linear-gradient(to top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
+}
+
+.main-left-name:focused {
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+.main-left-volume {
+    -fx-font-size: 16;
+    -fx-text-fill: #058FF566;
+}
+
+.main-right-item-box {
+    -fx-fill: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+    -fx-stroke: rgba(0, 0, 0, 0.5);
+}
+
+.main-right-item-pane:hover {
+    -fx-cursor: hand;
+}
+
+.main-right-item-pane:hover > .main-right-item-box {
+    -fx-fill: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    -fx-stroke: white;
+}
+
+.main-right-item-text {
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-min-width: 120;
+}
+
+.main-right-item-pane:hover > .main-right-item-text {
+    -fx-text-fill: cyan;
+    -fx-font-size: 13;
+}
+
+.statistic-left-back {
+    -fx-background-color: white;
+    -fx-opacity: 0.5;
+    -fx-padding: 5 15 5 5;
+    -fx-shape: "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z";
+}
+
+.statistic-left-back:hover {
+    -fx-cursor: hand;
+}
+
+.statistic-left-back:hover {
+    -fx-opacity: 1;
+}
+
+.statistic-db-header {
+    -fx-background-color: #FA680777;
+    -fx-background-radius: 20 20 0 0;
+    -fx-pref-height: 60;
+}
+
+.statistic-db-header:hover {
+    -fx-background-color: #FA6807A5;
+}
+
+.statistic-db-header-text {
+    -fx-font-family: "Bahnschrift";
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.statistic-db-item, .statistic-db-item-special {
+    -fx-min-height: 40;
+    -fx-border-color: rgba(255, 255, 255, 0.5);
+    -fx-border-width: 0 0 1 0;
+}
+
+.statistic-db-item {
+    -fx-background-color: #05ABED77;
+}
+
+.statistic-db-item-special {
+    -fx-background-color: #F53B2477;
+}
+
+.statistic-db-item:hover, .statistic-db-item-special:hover {
+    -fx-border-color: rgba(255, 255, 255, 0.8);
+}
+
+.statistic-db-item:hover {
+    -fx-background-color: #05ABEDA5;
+}
+
+.statistic-db-item-special:hover {
+    -fx-background-color: #F53B24A5;
+}
+
+.statistic-db-item-name {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-min-width: 200;
+}
+
+.statistic-db-item-index {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: #D6D024;
+    -fx-min-width: 50;
+    -fx-padding: 0 0 0 10;
+}
+
+.statistic-db-item-score {
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.statistic-player-header {
+    -fx-background-color: #2AD46777;
+    -fx-background-radius: 20 20 0 0;
+    -fx-pref-height: 50;
+}
+
+.statistic-player-header:hover {
+    -fx-background-color: #2AD467A5;
+}
+
+.statistic-player-header-text {
+    -fx-font-family: "Bahnschrift";
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.statistic-player-item {
+    -fx-background-color: #05ABED77;
+    -fx-min-height: 35;
+    -fx-border-color: rgba(255, 255, 255, 0.5);
+    -fx-border-width: 0 0 1 0;
+}
+
+.statistic-player-item:hover {
+    -fx-background-color: #05ABEDA5;
+    -fx-border-color: rgba(255, 255, 255, 0.8);
+}
+
+.statistic-player-item-name {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-min-width: 200;
+    -fx-padding: 0 0 0 10;
+}
+
+.pane-shadow {
+    -fx-effect: dropshadow(three-pass-box, rgb(0,0,0), 30, 0, 10, 10);
+}
+
+.main-modal {
+    -fx-background-color: rgba(0,0,0,0.25);
+    -fx-padding: 50 100 50 100;
+}
+
+.main-modal-container {
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-effect: innershadow(three-pass-box, rgba(245,245,245,0.25), 15, 0, 0, 0);
+    -fx-padding: 10;
+}
